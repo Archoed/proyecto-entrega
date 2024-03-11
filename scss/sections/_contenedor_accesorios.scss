@@ -1,0 +1,45 @@
+.card-imagen{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 30px;
+
+    img{
+        width: auto;
+        height: 170px;
+        border-radius: 50px;
+    }
+}
+
+.card-body a {
+    text-align: center;
+}
+
+.acordeon-img{
+    display: flex;
+    justify-content:space-around;
+    background-color: #4a4e69;
+   padding: 50px;
+}
+
+.imagen-acordeon img{
+   width: 700px;
+   height: 550px;
+
+}
+
+@media (max-width: 600px){
+    body{
+        padding: 0 4 rem;
+    }
+
+    .card-imagen{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .acordeon-img{
+        display: grid;
+        flex-wrap: wrap;
+    }
+}
