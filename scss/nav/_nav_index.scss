@@ -1,10 +1,15 @@
 .principal{
-    background-color: black;
+    background: black;
     padding: 10px;
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
+    animation-name: cambio-color;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+  
 
     &__logo{
         width: 150px;
@@ -22,8 +27,26 @@
         padding: 0 20px;
     }
     &.principal a:hover{
-        color: #3a86ff;
+        color: #03045e;
          
+    }
+
+    @keyframes cambio-color{
+       
+        0%{
+            background: black;
+        }
+        25%{
+            background: #ffbe0b;
+        }
+        50%{
+            background: #fb5607;
+        }
+
+        75%{
+            background:#3a86ff;
+        }
+       
     }
 
 

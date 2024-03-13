@@ -1,5 +1,6 @@
 .noticia__imagen{
-    background-color: cadetblue;
+    
+    background-image: linear-gradient(cadetblue, black);
     
      h2{
      
@@ -51,7 +52,7 @@
      align-items: center;
      min-height: 100vh;
      flex-direction: column;
-     background-color: #2b2d42;
+    background-image: linear-gradient(#b5838d,#ff86c8);
  
      h1{
      font-family: sans-serif;
@@ -95,7 +96,7 @@
  }
  
  .section__noticia2{
-     background-color: #005f73;
+    background-image: linear-gradient(cadetblue, black);
  
      h2{
          font-family: sans-serif;

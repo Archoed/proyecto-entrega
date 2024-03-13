@@ -8,11 +8,16 @@
     <title>Galeria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body class="fondo-galeria">
     <nav class="principal">
         <a href="../index.html"><img class="principal__logo" src="../imagenes/inicio/logo principal.png" alt="logo-principal"></a>
         <ul>
+            <li><a class="principal__menu" href="../index.html">Home</a></li>
             <li><a class="principal__menu" href="../pages/galeria.html">Galeria</a></li>
             <li><a class="principal__menu" href="../pages/noticias.html">Noticias</a></li>
             <li><a class="principal__menu" href="../pages/accesorios.html">Accesorios</a></li>
@@ -28,12 +33,12 @@
         </section>
 
         <section class="section_galeria1">
-            <ul>
-                <li><a href="">PlayStation 5</a></li>
-                <li><a href="">PlayStation 4</a></li>
-                <li><a href="">PlayStation 3</a></li>
-                <li><a href="">PlayStation 2</a></li>
-                <li><a href="">PlayStation 1 </a></li>
+            <ul id="inicio">
+                <li><a href="#playstaion5">PlayStation 5</a></li>
+                <li><a href="#playstation4">PlayStation 4</a></li>
+                <li><a href="#playstation3">PlayStation 3</a></li>
+                <li><a href="#playstation2">PlayStation 2</a></li>
+                <li><a href="#playstation1">PlayStation 1 </a></li>
             </ul>
 
         </section>
@@ -45,7 +50,7 @@
             <section class="section__galeria2">
                 <div class="section__logo">
                     <img  src="../imagenes/galeria/logoplay5.png" alt="Logo Play 5">
-                    <h2>PLAYSTATION 5</h2>
+                    <h2 id="playstation5">PLAYSTATION 5</h2>
 
                 </div>
 
@@ -60,13 +65,13 @@
                     <iframe src="https://www.youtube.com/embed/2I2zLQ0PlG4?si=uVnw6vqXHc6wI6XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 </div>
-
+                <a class="inicio" href="#inicio"><h3>INICIO</h3></a>
             </section>
 
             <section class="section__galeria2">
                 <div class="section__logo">
                     <img src="../imagenes/galeria/logoplay4.png" alt="Logo Play 4">
-                    <h2>PLAYSTATION 4</h2>
+                    <h2 id="playstation4">PLAYSTATION 4</h2>
 
                 </div>
 
@@ -80,15 +85,17 @@
                     <img src="../imagenes/galeria/p4.6.jpg" alt="Juego6">
                     <iframe src="https://www.youtube.com/embed/rHf1y_A8ez0?si=yxxGKiYLko2v1F1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-
+                <a class="inicio" href="#inicio"><h3>INICIO</h3></a>
             </section>
 
             <section class="section__galeria2">
                 <div class="section__logo">
                     <img src="../imagenes/galeria/logoplay3.png" alt="Logo Play 3">
-                    <h2>PLAYSTATION 3</h2>
+                    <h2 id="playstation3">PLAYSTATION 3</h2>
+                    
 
                 </div>
+                
 
                 <div class="section__imagen">
                     <img src="../imagenes/galeria/play3.1.jpg" alt="Juego1">
@@ -100,12 +107,13 @@
                     <img src="../imagenes/galeria/play3.6.jpg" alt="Juego6">
                     <iframe src="https://www.youtube.com/embed/Ni9L4_zKNrM?si=a5lu7OXZPZcNhCGz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+                <a class="inicio" href="#inicio"><h3>INICIO</h3></a>
             </section>
 
             <section class="section__galeria2">
                 <div class="section__logo">
                     <img src="../imagenes/galeria/logoplay2.png" alt="Logo Play 2">
-                    <h2>PLAYSTATION 2</h2>
+                    <h2 id="playstation2">PLAYSTATION 2</h2>
 
                 </div>
 
@@ -119,13 +127,13 @@
                     <img src="../imagenes/galeria/play2.6.jpg" alt="Juego6">
                     <iframe src="https://www.youtube.com/embed/R6Zj7-AxlAY?si=dd41hcA2TLUmXbTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-
+                <a class="inicio" href="#inicio"><h3>INICIO</h3></a>
             </section>
 
             <section class="section__galeria2">
                 <div class="section__logo">
                     <img src="../imagenes/galeria/logoplaystation1.png" alt="Logo Playstaion 1">
-                    <h2>PLAYSTATION 1</h2>
+                    <h2 id="playstation1">PLAYSTATION 1</h2>
                 </div>
                 
                 <div class="section__imagen">
@@ -139,7 +147,31 @@
                     <iframe src="https://www.youtube.com/embed/PSbh7ScS-d8?si=V7xFZfKhMXJHpruu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 </div>
+                <a class="inicio" href="#inicio"><h3>INICIO</h3></a>
+            </section>
 
+            <section class="slider">
+                <h2>Playstation te trae variedades de juegos para una mejor experiencia</h2>
+
+                <div class="slider-frame">
+                    <ul>
+                        <li><img src="../imagenes/galeria/recurso3.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso4.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso5.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso6.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso7.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso88.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso9.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso10.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso11.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso12.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso13.jpg" alt=""></li>
+                        <li><img src="../imagenes/galeria/recurso14.jpg" alt=""></li>
+
+
+                    </ul>
+
+                </div>
             </section>
 
     </main>
