@@ -1,41 +1,36 @@
-.pie{
-   background-image: radial-gradient(#4361ee,#3a0ca3);
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    justify-content: space-between;
+.pie {
+  background-image: radial-gradient(#4361ee, #3a0ca3);
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.pie .icono img{
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-    margin-right: 50px;
+.pie .icono img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin-right: 50px;
 }
 
-.pie .logo-pie img{
-    width: 200px;
-    height: 100px;
-    padding: 10px;
-    margin-bottom: 50px;
+.pie .logo-pie img {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
-.pie .texto-footer{
-    text-align: center;
-
+.pie .texto-footer {
+  text-align: center;
 }
 
-.texto-footer h2{
-   
-    color: white;
-    font-size: 30px;
-    font-family: sans-serif;
-
+.texto-footer h2 {
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
 }
-.texto-footer h3{
-    
-    color: white;
-    font-size: 20px;
-    font-family: sans-serif;
-
+.texto-footer h3 {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
 }
