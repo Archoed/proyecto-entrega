@@ -44,3 +44,28 @@
     }
   }
 }
+@media (max-width: 600px) {
+  .principal {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .principal__menu {
+    font-size: 20px;
+  }
+
+  .principal ul {
+    padding: 0;
+  }
+
+  .principal ul li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .principal a:hover {
+    color: inherit;
+  }
+}
+

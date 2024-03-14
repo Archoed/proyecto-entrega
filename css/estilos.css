@@ -52,6 +52,21 @@
   75% {
     background: #3a86ff; } }
 
+@media (max-width: 600px) {
+  .principal {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px; }
+  .principal__menu {
+    font-size: 20px; }
+  .principal ul {
+    padding: 0; }
+  .principal ul li {
+    display: block;
+    padding: 10px 0; }
+  .principal a:hover {
+    color: inherit; } }
+
 .slider-box {
   width: 1280 px;
   height: auto;
@@ -91,6 +106,17 @@
     margin-left: -400%; }
   100% {
     margin-left: -400%; } }
+
+@media (max-width: 600px) {
+  .slider-box {
+    width: 100%;
+    margin: 20px auto;
+    height: auto; }
+  .slider-box ul {
+    width: 1000%;
+    animation: none; }
+  .slider-box li {
+    margin-top: 20px; } }
 
 h1 {
   font-size: 60px;
@@ -331,6 +357,128 @@ h1 {
     font-size: 40px;
     font-family: sans-serif; }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+    margin: 50px 0; }
+  .contenedor {
+    margin-top: 20px;
+    padding-top: 20px; }
+  .contenedor img {
+    width: 150px;
+    height: 160px;
+    margin: 20px; } }
+
+@media (max-width: 600px) {
+  .contenedor2 {
+    margin-top: 100px;
+    flex-direction: column-reverse; }
+  .contenedor2 img {
+    width: 100%;
+    height: auto; }
+  .contenedor2__texto,
+  h2,
+  p,
+  h4 {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center; }
+  h4 {
+    width: auto;
+    margin-top: 20px; } }
+
+@media (max-width: 600px) {
+  .contenedor3 {
+    margin-top: 50px;
+    padding-top: 20px;
+    justify-content: center; }
+  .contenedor3 img {
+    width: 150px;
+    height: 160px;
+    margin: 10px; } }
+
+@media (max-width: 600px) {
+  .contenedor4 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; }
+  .contenedor4 img {
+    width: 100%;
+    height: auto; }
+  h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center; }
+  p {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center; }
+  h4 {
+    font-size: 16px;
+    width: auto;
+    margin-top: 10px; } }
+
+@media (max-width: 600px) {
+  .contenedor5 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px; }
+  .contenedor5__imagen {
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px 0; }
+  h2,
+  p,
+  h3 {
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center; }
+  h3 {
+    width: auto;
+    margin-top: 10px; }
+  img {
+    width: 250px;
+    height: 150px;
+    padding: 10px; }
+  figcaption {
+    font-size: 20px; } }
+
+@media (max-width: 600px) {
+  .contenedor6 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; }
+  .contenedor6__imagen {
+    padding: 10px; }
+  img {
+    width: 250px;
+    height: 220px;
+    margin: 10px 0;
+    opacity: 1; }
+  h2 {
+    font-size: 30px;
+    padding: 20px 0; }
+  figcaption {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: center; } }
+
+@media (max-width: 600px) {
+  .contenedor7 {
+    padding: 20px; }
+  .contenedor7__imagen {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center; }
+  img {
+    width: 200px;
+    height: 150px;
+    margin: 10px 0; }
+  h2 {
+    font-size: 30px; } }
+
 .pie {
   background-image: radial-gradient(#4361ee, #3a0ca3);
   display: flex;
@@ -362,6 +510,21 @@ h1 {
   color: white;
   font-size: 20px;
   font-family: sans-serif; }
+
+@media (max-width: 600px) {
+  .pie {
+    flex-direction: column; }
+  .pie .icono img {
+    margin-right: 0;
+    margin-bottom: 20px; }
+  .pie .logo-pie img {
+    margin-bottom: 20px; }
+  .pie .texto-footer {
+    margin-bottom: 20px; }
+  .texto-footer h2 {
+    font-size: 24px; }
+  .texto-footer h3 {
+    font-size: 16px; } }
 
 .imagen-principal img {
   margin-left: 90px;
@@ -889,7 +1052,7 @@ h1 {
     .galeria__imagen img:hover {
       transform: scale(1.2); }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body {
     padding: 0 4 rem; }
   .card-imagen {
@@ -899,7 +1062,7 @@ h1 {
     display: grid;
     flex-wrap: wrap; } }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .contenedor__imagen {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 50px; }

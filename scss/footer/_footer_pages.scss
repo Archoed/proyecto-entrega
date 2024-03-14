@@ -34,3 +34,30 @@
   font-size: 20px;
   font-family: sans-serif;
 }
+
+@media (max-width: 600px) {
+  .pie {
+    flex-direction: column;
+  }
+
+  .pie .icono img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .pie .logo-pie img {
+    margin-bottom: 20px;
+  }
+
+  .pie .texto-footer {
+    margin-bottom: 20px;
+  }
+
+  .texto-footer h2 {
+    font-size: 24px;
+  }
+
+  .texto-footer h3 {
+    font-size: 16px;
+  }
+}

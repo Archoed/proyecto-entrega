@@ -132,7 +132,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body {
     padding: 0 4 rem;
   }
@@ -147,7 +147,7 @@
     flex-wrap: wrap;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .contenedor__imagen {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 50px;
