@@ -50,9 +50,9 @@
 .contenedor__imagen {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
   grid-gap: 2rem;
-  margin-top: 20px;
+  margin-bottom: 40px;
 
   img {
     object-fit: cover;
@@ -132,40 +132,127 @@
   }
 }
 
-@media (max-width: 700px) {
-  body {
-    padding: 0 4 rem;
+@media (max-width: 430px) {
+  .carousel-item{
+    width: 100%;
+    height: auto;
+  }
+  .carousel-item img{
+      width: auto;
+      height: auto;
   }
 
-  .card-imagen {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-
-  .acordeon-img {
-    display: grid;
+  .card-imagen{
+    display: flex;
     flex-wrap: wrap;
   }
-}
-@media (max-width: 700px) {
+
+  .card-imagen img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 20px; 
+  }
+  .acordeon-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagen-acordeon img {
+    max-width: 100%;  
+    height: auto; 
+    margin-top: 20px; 
+  }
   .contenedor__imagen {
-    grid-template-columns: repeat(1, 1fr);
-    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
   }
 
-  .galeria2,
-  .galeria6,
-  .galeria3,
-  .galeria8,
-  .galeria11,
-  .galeria1,
-  .galeria4-2,
-  .galeria13 {
-    grid-column: unset;
-    grid-row: unset;
+.contenedor__imagen img{
+    
+  width: 80%;
+  height: auto;
   }
 
-  .contenedor__imagen img {
+  .galeria1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .galeria7{
+    display: flex;
+    justify-content: center;
+  }
+
+  .galeria9{
+    display: flex;
+    justify-content: center;
+  }
+
+  .galeria2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .galeria10-2{
+    display: flex;
+    justify-content: center;
+  }
+  .galeria11{
+    display: flex;
+    justify-content: center;
+  }
+  .galeria5{
+    display: flex;
+    justify-content: center;
+  }
+  .galeria12{
+    display: flex;
+    justify-content: center;
+
+  }
+  .galeria3{
+    display: flex;
+    justify-content: center;
+  }
+  .galeria6{
+    display: flex;
+    justify-content: center;
+  }
+  .galeria4-2{
+    display: flex;
+    justify-content: center;
+  }
+  .galeria8{
+    display: flex;
+    justify-content: center;
+  }
+  .galeria13{
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
   }
+
+  .galeria__imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .galeria__imagen img{
+    width: 80%;
+    height: auto;
+  }
+  
+
+  .section__accesorios h1{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
 }
+
+

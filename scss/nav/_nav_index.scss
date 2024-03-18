@@ -44,20 +44,20 @@
     }
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 430px) {
   .principal {
-    flex-direction: column;
+    display: flex;
     text-align: center;
     padding: 20px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
   }
 
   .principal__menu {
     font-size: 20px;
   }
 
-  .principal ul {
-    padding: 0;
-  }
 
   .principal ul li {
     display: block;

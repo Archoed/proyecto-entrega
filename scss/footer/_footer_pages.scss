@@ -35,9 +35,11 @@
   font-family: sans-serif;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 430px) {
   .pie {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .pie .icono img {
