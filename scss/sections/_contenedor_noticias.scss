@@ -1,8 +1,7 @@
-.contenedor__noticia{
+.contenedor__noticia {
   background-image: linear-gradient(cadetblue, black);
 
   h2 {
-    
     font-size: 40px;
     color: #fffcf2;
   }
@@ -12,7 +11,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 
   img {
     border-radius: 25px;
@@ -67,7 +65,6 @@
   grid-gap: 1rem;
 
   img {
-    
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -212,32 +209,30 @@
 }
 
 @media (max-width: 430px) {
-.noticia1{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-  
-figure{
-  margin: 0 0 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .noticia1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-}
+    figure {
+      margin: 0 0 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
 
   .noticia1 img {
-    width: 80%; 
-    height: auto; 
-  
+    width: 80%;
+    height: auto;
   }
 
   .noticia1 p {
-    font-size: 20px; 
-    margin-top: 50px; 
-    width: 90%; 
-    margin-left: auto; 
-    margin-right: auto; 
+    font-size: 20px;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section__grilla1 {
@@ -246,81 +241,78 @@ figure{
   }
 
   .section__grilla1 img {
-    width: 80%; 
-    height: auto; 
-    
+    width: 80%;
+    height: auto;
   }
 
-  .imagenes-a{
+  .imagenes-a {
     display: flex;
     justify-content: center;
     height: auto;
   }
-  .imagenes-b{
+  .imagenes-b {
     display: flex;
     justify-content: center;
   }
 
-  .imagenes-c{
-    display: flex;
-    justify-content: center;
-
-  }
-
-  .imagenes-d{
+  .imagenes-c {
     display: flex;
     justify-content: center;
   }
 
-  .imagenes-e{
+  .imagenes-d {
     display: flex;
     justify-content: center;
   }
 
-  .imagenes-f{
+  .imagenes-e {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagenes-f {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
   }
 
-  .noticia__mes2{
+  .noticia__mes2 {
     display: flex;
     align-items: center;
-    flex-direction: column  ;
+    flex-direction: column;
   }
 
-  .noticia__mes2 iframe{
-      width: 80%;
+  .noticia__mes2 iframe {
+    width: 80%;
   }
 
   .section__noticia2 h3 {
     margin-top: 50px;
-    margin-left: auto; 
-    margin-right: auto; 
-    font-size: 25px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
     text-align: center;
   }
 
   .noticia__mes2 p {
-    width: 90%; 
-    margin-left: auto; 
-    margin-right: auto; 
-    font-size: 15px; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
   }
 
-  .section__photos2 h2{
+  .section__photos2 h2 {
     font-size: 2rem;
   }
 
-  .section__photos2 P{
+  .section__photos2 P {
     font-size: 1rem;
-    
   }
 
   .section__grilla2 iframe {
-    width: 100%; 
-    height: auto; 
-    margin-top: 20px; 
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
   }
 
   .section__grilla2 {
@@ -329,86 +321,83 @@ figure{
     justify-content: center;
   }
 
-  .video1{
-    width: 80%;
-    height: auto;
-    margin-left: 20px;
-    
-  }
-  .video2{
+  .video1 {
     width: 80%;
     height: auto;
     margin-left: 20px;
   }
-
-  .video3{
-    width: 80%;
-    height: auto;
-    margin-left: 20px;
-  }
-  .video4{
+  .video2 {
     width: 80%;
     height: auto;
     margin-left: 20px;
   }
 
-  .video5{
+  .video3 {
+    width: 80%;
+    height: auto;
+    margin-left: 20px;
+  }
+  .video4 {
     width: 80%;
     height: auto;
     margin-left: 20px;
   }
 
-  .video6{
+  .video5 {
     width: 80%;
     height: auto;
     margin-left: 20px;
   }
 
-  .video7{
-    width: 80%;
-    height: auto;
-    margin-left: 20px;
-  }
-  .video8{
+  .video6 {
     width: 80%;
     height: auto;
     margin-left: 20px;
   }
 
-  .video9{
+  .video7 {
     width: 80%;
     height: auto;
     margin-left: 20px;
   }
-  .video10{
-    width: 80%;
-    height: auto;
-    margin-left: 20px;
-  }
-
-  .video11{
+  .video8 {
     width: 80%;
     height: auto;
     margin-left: 20px;
   }
 
-  .video12{
+  .video9 {
+    width: 80%;
+    height: auto;
+    margin-left: 20px;
+  }
+  .video10 {
     width: 80%;
     height: auto;
     margin-left: 20px;
   }
 
-  .video13{
+  .video11 {
+    width: 80%;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .video12 {
+    width: 80%;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .video13 {
     width: 80%;
     height: auto;
     margin-left: 20px;
     margin-bottom: 20px;
   }
 
-  .section__photos2 p{
+  .section__photos2 p {
     text-align: center;
     padding: 20px;
   }
-  
 }
-

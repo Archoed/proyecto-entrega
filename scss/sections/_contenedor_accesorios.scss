@@ -133,24 +133,24 @@
 }
 
 @media (max-width: 430px) {
-  .carousel-item{
+  .carousel-item {
     width: 100%;
     height: auto;
   }
-  .carousel-item img{
-      width: auto;
-      height: auto;
+  .carousel-item img {
+    width: auto;
+    height: auto;
   }
 
-  .card-imagen{
+  .card-imagen {
     display: flex;
     flex-wrap: wrap;
   }
 
   .card-imagen img {
-    width: 100%; 
-    height: auto; 
-    border-radius: 20px; 
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
   }
   .acordeon-img {
     display: flex;
@@ -158,78 +158,76 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .imagen-acordeon img {
-    max-width: 100%;  
-    height: auto; 
-    margin-top: 20px; 
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
   }
   .contenedor__imagen {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-  }
-
-.contenedor__imagen img{
-    
-  width: 80%;
-  height: auto;
-  }
-
-  .galeria1{
-    display: flex;
     justify-content: center;
   }
 
-  .galeria7{
+  .contenedor__imagen img {
+    width: 80%;
+    height: auto;
+  }
+
+  .galeria1 {
     display: flex;
     justify-content: center;
   }
 
-  .galeria9{
+  .galeria7 {
     display: flex;
     justify-content: center;
   }
 
-  .galeria2{
+  .galeria9 {
     display: flex;
     justify-content: center;
   }
 
-  .galeria10-2{
+  .galeria2 {
     display: flex;
     justify-content: center;
   }
-  .galeria11{
-    display: flex;
-    justify-content: center;
-  }
-  .galeria5{
-    display: flex;
-    justify-content: center;
-  }
-  .galeria12{
-    display: flex;
-    justify-content: center;
 
-  }
-  .galeria3{
+  .galeria10-2 {
     display: flex;
     justify-content: center;
   }
-  .galeria6{
+  .galeria11 {
     display: flex;
     justify-content: center;
   }
-  .galeria4-2{
+  .galeria5 {
     display: flex;
     justify-content: center;
   }
-  .galeria8{
+  .galeria12 {
     display: flex;
     justify-content: center;
   }
-  .galeria13{
+  .galeria3 {
+    display: flex;
+    justify-content: center;
+  }
+  .galeria6 {
+    display: flex;
+    justify-content: center;
+  }
+  .galeria4-2 {
+    display: flex;
+    justify-content: center;
+  }
+  .galeria8 {
+    display: flex;
+    justify-content: center;
+  }
+  .galeria13 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -241,18 +239,14 @@
     justify-content: center;
   }
 
-  .galeria__imagen img{
+  .galeria__imagen img {
     width: 80%;
     height: auto;
   }
-  
 
-  .section__accesorios h1{
+  .section__accesorios h1 {
     font-size: 20px;
     padding: 20px;
     text-align: center;
   }
-
 }
-
-

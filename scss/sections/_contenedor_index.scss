@@ -322,7 +322,7 @@ h1 {
     font-family: sans-serif;
     text-align: center;
   }
-  
+
   .contenedor {
     background-color: #778da9;
     display: flex;
@@ -333,7 +333,7 @@ h1 {
     overflow: hidden;
     flex-wrap: wrap;
   }
-  
+
   .contenedor img {
     width: 200px;
     height: 220px;
@@ -345,51 +345,43 @@ h1 {
     cursor: pointer;
     overflow: hidden;
   }
-  
+
   .contenedor img:hover {
     transform: scale(1.2);
   }
-  
+
   .contenedor2 {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    
   }
-  
+
   .contenedor2 img {
     width: 100%;
     height: auto;
   }
 
-  .contenedor2__texto{
+  .contenedor2__texto {
     margin: auto;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .contenedor2__texto h2{
 
-  font-size: 20px;
-
+  .contenedor2__texto h2 {
+    font-size: 20px;
   }
 
-  .contenedor2__texto p{
-
+  .contenedor2__texto p {
     font-size: 15px;
-   
-   
-   
-    }
-  
+  }
+
   .contenedor2 h4 {
     width: 190px;
     margin-top: 20px;
-  
   }
-  
+
   .contenedor3 {
     background-color: #778da9;
     display: flex;
@@ -400,7 +392,7 @@ h1 {
     position: relative;
     overflow: hidden;
   }
-  
+
   .contenedor3 img {
     width: 200px;
     height: 220px;
@@ -412,11 +404,11 @@ h1 {
     cursor: pointer;
     overflow: hidden;
   }
-  
+
   .contenedor3 img:hover {
     transform: scale(1.2);
   }
-  
+
   .contenedor4 {
     display: flex;
     justify-content: center;
@@ -424,33 +416,31 @@ h1 {
     flex-direction: column;
   }
 
-  .contenedor4__texto{
+  .contenedor4__texto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
   }
-  
+
   .contenedor4 img {
     width: 300px;
     height: auto;
   }
-  
+
   .contenedor4 h2 {
     font-size: 20px;
     color: white;
     font-family: sans-serif;
-   
   }
-  
+
   .contenedor4 p {
     font-size: 15px;
     color: white;
     margin: 10px 0;
     font-family: sans-serif;
-    
   }
-  
+
   .contenedor4 h4 {
     font-size: 20px;
     margin: 10px 0;
@@ -463,11 +453,11 @@ h1 {
     transition: 0.5s;
     cursor: pointer;
   }
-  
+
   h4:hover {
     transform: scale(1.2);
   }
-  
+
   .contenedor5 {
     background-color: #9f86c0;
     display: flex;
@@ -476,32 +466,31 @@ h1 {
     margin-top: 30px;
     padding-top: 20px;
     position: relative;
-   
   }
 
-  .contenedor5__texto{
+  .contenedor5__texto {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
   }
 
-  .contenedor5__texto h2{
+  .contenedor5__texto h2 {
     font-size: 20px;
     text-align: center;
   }
 
-  .contenedor5__texto p{
+  .contenedor5__texto p {
     font-size: 12px;
     text-align: center;
     margin: 0;
     padding: 5px;
   }
 
-  .contenedor5__texto h3{
+  .contenedor5__texto h3 {
     width: 190px;
   }
-  
+
   .contenedor5__imagen {
     display: flex;
     justify-content: center;
@@ -512,7 +501,7 @@ h1 {
     cursor: pointer;
     overflow: hidden;
   }
-  
+
   .contenedor5 img {
     width: 300px;
     height: auto;
@@ -521,11 +510,11 @@ h1 {
     padding: 2px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 1.2);
   }
-  
+
   .contenedor5 img:hover {
     transform: scale(1.2);
   }
-  
+
   figcaption {
     text-align: center;
     font-size: 20px;
@@ -533,7 +522,7 @@ h1 {
     font-family: sans-serif;
     padding: 10px;
   }
-  
+
   .contenedor6__imagen {
     display: flex;
     flex-wrap: wrap;
@@ -541,9 +530,8 @@ h1 {
     align-items: center;
     margin-top: 30px;
   }
-  
+
   .contenedor6 img {
-    
     padding: 20px;
     border-radius: 50px;
     transition: 0.5s;
@@ -552,26 +540,26 @@ h1 {
     opacity: 0.3;
     transition: opacity 0.3s ease-in-out;
   }
-  
+
   .contenedor6 img:hover {
     transform: scale(1.2);
     opacity: 1;
   }
-  
+
   h2 {
     font-size: 30px;
     color: white;
     font-family: sans-serif;
     text-align: center;
   }
-  
+
   .contenedor6__imagen figcaption {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
     text-align: center;
   }
-  
+
   .contenedor7 {
     display: flex;
     background-color: white;
@@ -579,14 +567,14 @@ h1 {
     padding: 50px;
     align-items: center;
   }
-  
+
   .contenedor7__imagen {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     flex-wrap: wrap;
   }
-  
+
   .contenedor7 img {
     width: 200px;
     height: auto;
@@ -594,19 +582,15 @@ h1 {
     cursor: pointer;
     margin-top: 20px;
   }
-  
+
   .contenedor7 img:hover {
     transform: scale(1.2);
   }
-  
+
   h2 {
     font-size: 30px;
     color: black;
     font-family: sans-serif;
     text-align: center;
   }
-}  
-
-
-
-
+}
